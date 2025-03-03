@@ -121,7 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
                     <p class="error-message"><?php echo $error_login; ?></p>
                 </form>
 
-                <form action="" method="POST" class="formulario__register">
+                <form action="" method="POST" class="formulario_register">
                     <h2>Regístrarse</h2>
                     <input type="text" name="register_nombre" placeholder="Nombre completo">
                     <input type="text" name="register_email" placeholder="Correo Electronico">
