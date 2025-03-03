@@ -103,17 +103,17 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
                 <div class="caja_trasera-login">
                     <h3>¿Ya tienes una cuenta?</h3>
                     <p>Inicia sesión para entrar en la página</p>
-                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    <button id="btn_iniciar-sesion">Iniciar Sesión</button>
                 </div>
                 <div class="caja_trasera-register">
                     <h3>¿Aún no tienes una cuenta?</h3>
                     <p>Regístrate para que puedas iniciar sesión</p>
-                    <button id="btn__registrarse">Regístrarse</button>
+                    <button id="btn_registrarse">Regístrarse</button>
                 </div>
             </div>
 
             <div class="contenedor_login-register">
-                <form action="" method="POST" class="formulario__login">
+                <form action="" method="POST" class="formulario_login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" name="login_email" placeholder="Correo Electronico">
                     <input type="password" name="login_password" placeholder="Contraseña">
